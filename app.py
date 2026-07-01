@@ -8,7 +8,7 @@ def inicio():
 
 @app.route("/error")
 def error():
-    return str(1/0)
+    return "Error solucionado"
 
 if __name__ == "__main__":
     app.run(debug=True)
